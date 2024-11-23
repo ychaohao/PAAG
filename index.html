@@ -271,7 +271,6 @@
       </div>
     </div>
     <!--/ Abstract. -->
-
     <!-- Paper video. -->
     <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -287,20 +286,12 @@
 </section>
 
 
-<section class="hero teaser">
+<section class="section">
   <div class="container is-max-desktop">
+    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
-      <div class="hero-body">
+      <div class="column is-four-fifths">
         <h2 class="title is-3">Problem Statement</h2>
-        <img src="./static/images/overview.png" alt="Nerfies Portrait">
-        <h2 class="subtitle has-text-centered">
-          <p>
-            (a) The example of property annotations (in bold) and domain annotations (in colors).
-          </p>
-          <p>
-            (b). The illustration of annotation-guided protein design with PAAG. Given the input of textual description within immunoglobulin domain annotation, PAAG can generate the proteins containing immunoglobulin domain.
-          </p>
-        </h2>
       </div>
     </div>
   </div>
@@ -309,14 +300,40 @@
 
 <section class="hero teaser">
   <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/overview.png" alt="Nerfies Portrait">
+      <h2 class="subtitle has-text-centered">
+        <p>
+          (a) The example of property annotations (in bold) and domain annotations (in colors).
+        </p>
+        <p>
+          (b). The illustration of annotation-guided protein design with PAAG. Given the input of textual description within immunoglobulin domain annotation, PAAG can generate the proteins containing immunoglobulin domain.
+        </p>
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
-      <div class="hero-body">
+      <div class="column is-four-fifths">
         <h2 class="title is-3">Proposed Framework</h2>
-        <img src="./static/images/method.png" alt="Nerfies Portrait">
-        <h2 class="subtitle has-text-centered">
-          The overall framework of PAAG. The same parameters share the same color. PAAG contains three modules. (1) Protein & Annotation Encoding module encode the input protein sequence & domains and corresponding annotations to the embeddings. (2) Multi-level alignment module projects the protein and annotation embeddings into and employs Annotation-Protein Contrasive (APC) loss, Annotation-Domain Contrasive (ADC) loss and Annotation-Protein Matching (APM) loss to align them in a same latent space. (3) Conditional Protein Decoding accepts the annotation embedding as input and generate the protein sequence.
-        </h2>
       </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/method.png" alt="Nerfies Portrait">
+      <h2 class="subtitle has-text-centered">
+        The overall framework of PAAG. The same parameters share the same color. PAAG contains three modules. (1) Protein & Annotation Encoding module encode the input protein sequence & domains and corresponding annotations to the embeddings. (2) Multi-level alignment module projects the protein and annotation embeddings into and employs Annotation-Protein Contrasive (APC) loss, Annotation-Domain Contrasive (ADC) loss and Annotation-Protein Matching (APM) loss to align them in a same latent space. (3) Conditional Protein Decoding accepts the annotation embedding as input and generate the protein sequence.
+      </h2>
     </div>
   </div>
 </section>
